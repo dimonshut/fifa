@@ -21,7 +21,7 @@ body {
 .players-wrap {
 	position: relative;
 	padding: 55px 10px 10px;
-	max-width: 200px;
+	max-width: 100px;
 	width: 100%;
 	text-align: left;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 .tournaments-wrap {
-	width: calc(100% - 200px);
+	width: calc(100% - 100px);
 	margin-left: 30px;
 	padding: 30px;
 }

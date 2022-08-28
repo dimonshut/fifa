@@ -41,6 +41,8 @@
 		{
 			"id" : 1,
 			"name" : "Tournament 1",
+			"finished" : true,
+			"type" : "goal",
 			"match" : [
 				[
 					{
@@ -122,6 +124,8 @@
 		{
 			"id" : 2,
 			"name" : "Tournament 2",
+			"finished" : true,
+			"type" : "goal",
 			"match" : [
 				[
 					{
@@ -205,6 +209,8 @@
 		{
 			"id" : 3,
 			"name" : "Tournament 3",
+			"finished" : true,
+			"type" : "goal",
 			"match" : [
 				[
 					{
@@ -327,6 +333,8 @@
 		{
 			"id" : 4,
 			"name" : "Tournament 4",
+			"finished" : true,
+			"type" : "goal",
 			"match" : [
 				[
 					{
@@ -402,6 +410,128 @@
 						"player_id" : 3,
 						"goal" : 3,
 						"score" : 0
+					}
+				],
+				[
+					{
+						"player_id" : 3,
+						"goal" : 5,
+						"score": 3,
+						"winner" : true
+					},
+					{
+						"player_id" : 1,
+						"goal" : 1,
+						"score" : 0
+					}
+				],
+				[
+					{
+						"player_id" : 2,
+						"goal" : 1,
+						"score" : 0
+					},
+					{
+						"player_id" : 1,
+						"goal" : 4,
+						"score" : 3,
+						"winner" : true
+					}
+				],
+				[	{
+						"player_id" : 2,
+						"goal" : 0,
+						"score" : 0
+					},
+					{
+						"player_id" : 3,
+						"goal" : 4,
+						"score" : 3,
+						"winner" : true
+					}
+				]
+			]
+		},
+		{
+			"id" : 5,
+			"name" : "Tournament 5",
+			"type" : "difference",
+			"match" : [
+				[
+					{
+						"player_id" : 2,
+						"goal" : 4,
+						"score" : 3,
+						"winner" : true
+					},
+					{
+						"player_id" : 1,
+						"goal" : 3,
+						"score" : 0
+					}
+				],
+				[
+					{
+						"player_id" : 3,
+						"goal" : 2,
+						"score": 3,
+						"winner" : true
+					},
+					{
+						"player_id" : 1,
+						"goal" : 1,
+						"score" : 0
+					}
+				],
+				[	{
+						"player_id" : 3,
+						"goal" : 5,
+						"score" : 3,
+						"winner" : true
+					},
+					{
+						"player_id" : 2,
+						"goal" : 0,
+						"score" : 0
+					}
+				],
+				[
+					{
+						"player_id" : 3,
+						"goal" : 3,
+						"score": 3,
+						"winner" : true
+					},
+					{
+						"player_id" : 1,
+						"goal" : 2,
+						"score" : 0
+					}
+				],
+				[
+					{
+						"player_id" : 3,
+						"goal" : 3,
+						"score" : 3,
+						"winner" : true
+					},
+					{
+						"player_id" : 2,
+						"goal" : 2,
+						"score" : 0
+					}
+				],
+				[
+					{
+						"player_id" : 2,
+						"goal" : 2,
+						"score" : 0
+					},
+					{
+						"player_id" : 1,
+						"goal" : 3,
+						"score" : 3,
+						"winner" : true
 					}
 				]
 			]

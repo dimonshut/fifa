@@ -1,7 +1,7 @@
 window.onload = function() {
 
 	// params
-	let $filePath = './json/data.json?v=1',
+	let $filePath = './json/data.json?v=2',
 		$data = JSON.parse(readJSON($filePath));
 		$arPlayer = $data['player'],
 		$arTournament = $data['tournament'],
@@ -75,7 +75,6 @@ window.onload = function() {
 			$arPlayer[$player_2].score += $matchPlayer_2.score;
 		});
 		$arPlayer = sortJSON($arPlayer, 'score', 'desc');
-		console.log($arPlayer);
 		$html += '<div class="table-wrap">'+
 			'<table class="tournament-table tournament-table-main">'+
 			'<thead>'+
@@ -111,7 +110,16 @@ window.onload = function() {
 	// sort function
 	function sortJSON(arr, key, way) {
 		return arr.sort(function(a, b) {
-			var x = a[key]; var y = b[key];
+			var x = a[key];
+			var y = b[key];
+			if (x === y) {
+				x = a['difference'];
+				y = b['difference'];
+			}
+			if (x === y) {
+				x = a['goals'];
+				y = b['goals'];
+			}
 			if (way === 'asc') { return ((x < y) ? -1 : ((x > y) ? 1 : 0)); }
 			if (way === 'desc') { return ((x > y) ? -1 : ((x < y) ? 1 : 0)); }
 		});
