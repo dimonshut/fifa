@@ -533,6 +533,45 @@
 						"score" : 3,
 						"winner" : true
 					}
+				],
+				[
+					{
+						"player_id" : 3,
+						"goal" : 7,
+						"score" : 3,
+						"winner" : true
+					},
+					{
+						"player_id" : 2,
+						"goal" : 3,
+						"score" : 0
+					}
+				],
+				[
+					{
+						"player_id" : 3,
+						"goal" : 2,
+						"score": 0
+					},
+					{
+						"player_id" : 1,
+						"goal" : 3,
+						"score" : 3,
+						"winner" : true
+					}
+				],
+				[
+					{
+						"player_id" : 2,
+						"goal" : 4,
+						"score" : 3,
+						"winner" : true
+					},
+					{
+						"player_id" : 1,
+						"goal" : 3,
+						"score" : 0
+					}
 				]
 			]
 		}
