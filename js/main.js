@@ -1,7 +1,7 @@
 window.onload = function() {
 
 	// params
-	let $filePath = './json/data.json?v=2',
+	let $filePath = './json/data.json?v=3',
 		$data = JSON.parse(readJSON($filePath));
 		$arPlayer = $data['player'],
 		$arTournament = $data['tournament'],
